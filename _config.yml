@@ -1,0 +1,36 @@
+# Site settings
+title: Spokane Home Automation User Group
+email: your-email@example.com
+description: >-
+  A community of Home Assistant enthusiasts in Spokane, WA.
+  Join us to learn, share, and automate together!
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Minima date format
+minima:
+  date_format: "%b %-d, %Y"
+
+# Show excerpts on the home page
+show_excerpts: true
+
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:name/
+
+# Header pages (navigation)
+header_pages:
+  - about.md
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
