@@ -2,15 +2,17 @@
 layout: splash
 title: "Welcome to Spokane Home Automation User Group"
 header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: /assets/images/header.jpg
+  overlay_color: "#18BCF2"
+  overlay_filter: "0.6"
 excerpt: "A community of Home Assistant enthusiasts in Spokane, WA. Join us to learn, share, and automate together!"
+feature_row:
+  - image_path: /assets/images/smart-home-icon.svg
+    alt: "Smart Home Automation"
+    title: "Welcome to SHAUG"
+    excerpt: "We're a community of Home Assistant enthusiasts in Spokane, WA who love smart homes, automation, and tinkering with technology. Whether you're just getting started or you're a seasoned automation expert, you'll find a welcoming group of like-minded people ready to share, learn, and solve problems together."
 ---
 
-# Welcome to the Spokane Home Automation User Group
-
-We're a community of Home Assistant enthusiasts in Spokane, WA who love smart homes, automation, and tinkering with technology. Whether you're just getting started or you're a seasoned automation expert, you'll find a welcoming group of like-minded people ready to share, learn, and solve problems together.
+{% include feature_row type="center" %}
 
 ## Join Us at Our Next Meeting
 
