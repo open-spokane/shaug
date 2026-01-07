@@ -1,6 +1,11 @@
 ---
-layout: home
-title: Home
+layout: splash
+title: "Welcome to Spokane Home Automation User Group"
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/header.jpg
+excerpt: "A community of Home Assistant enthusiasts in Spokane, WA. Join us to learn, share, and automate together!"
 ---
 
 # Welcome to the Spokane Home Automation User Group
